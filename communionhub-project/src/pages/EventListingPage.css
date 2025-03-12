@@ -1,0 +1,76 @@
+/* Styling for the Event Listing Page */
+.event-listing-page {
+    margin-top: 3rem;
+  }
+  
+  /* Section Header Styling */
+  .section-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 2rem;
+  }
+  
+  /* Filter Section Styling */
+  .filter-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Button Styling */
+  .btn-add-event {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-add-event:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Card Styling */
+  .event-card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    background-color: #f8f9fa;
+    border: none;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-card .card-body {
+    padding: 1.5rem;
+  }
+  
+  .event-card h5 {
+    font-size: 1.5rem;
+    color: #343a40;
+    font-weight: bold;
+  }
+  
+  .event-card p {
+    color: #6c757d;
+  }
+  
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+    .event-card {
+      margin-bottom: 1rem;
+    }
+  
+    .section-header h2 {
+      font-size: 2rem;
+    }
+  
+    .btn-add-event {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  

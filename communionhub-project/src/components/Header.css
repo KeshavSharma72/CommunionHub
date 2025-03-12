@@ -1,0 +1,57 @@
+/* Custom Navbar Styling */
+.navbar-custom {
+    background-color: #343a40; /* Dark background */
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Navbar Brand Styling */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffcd39; /* Subtle hover effect */
+  }
+  
+  /* Navbar Links */
+  .nav-link {
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffcd39; /* Golden hover effect */
+  }
+  
+  /* Mobile Styles */
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  
+  /* Adjusting for small screens */
+  @media (max-width: 992px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-custom {
+      padding: 0.5rem 1rem;
+    }
+  
+    .nav-link {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
